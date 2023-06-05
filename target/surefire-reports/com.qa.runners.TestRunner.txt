@@ -1,0 +1,295 @@
+-------------------------------------------------------------------------------
+Test set: com.qa.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 2.37 s <<< FAILURE! - in com.qa.runners.TestRunner
+Cart Operations.Cart Operations Positive Test  Time elapsed: 0.222 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify if the app logo appears on the home page")
+public void login_page_i_verify_if_the_app_logo_appears_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("HomePage: I select: {string} from the filter dropdown")
+public void home_page_i_select_from_the_filter_dropdown(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("HomePage: I add to cart\\/remove: {string} the product with name: {string} on the home page")
+public void home_page_i_add_to_cart_remove_the_product_with_name_on_the_home_page(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("HomePage: I verify that {int} number of products added to the cart")
+public void home_page_i_verify_that_number_of_products_added_to_the_cart(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("HomePage: I click on the shopping cart button")
+public void home_page_i_click_on_the_shopping_cart_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("HomePage: I select the operation Continue Shopping\\/Checkout: {string} on the checkout section")
+public void home_page_i_select_the_operation_continue_shopping_checkout_on_the_checkout_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home Page: I verify the page title with: {string} on the checkout section")
+public void home_page_i_verify_the_page_title_with_on_the_checkout_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("HomePage: I enter the fields on the checkout section")
+public void home_page_i_enter_the_fields_on_the_checkout_section(io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List<E>, List<List<E>>, List<Map<K,V>>, Map<K,V> or
+    // Map<K, List<V>>. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+@When("Home Page: I click on the button Continue\\/Cancel: {string} on the checkout section")
+public void home_page_i_click_on_the_button_continue_cancel_on_the_checkout_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home Page: I verify total amount: {string} on the checkout section")
+public void home_page_i_verify_total_amount_on_the_checkout_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home Page: I click on the button Finish\\/Cancel: {string} on the checkout overview section")
+public void home_page_i_click_on_the_button_finish_cancel_on_the_checkout_overview_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Home Page: I verify the message: {string} on the checkout complete section")
+public void home_page_i_verify_the_message_on_the_checkout_complete_section(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Login Page: I logout from the application")
+public void login_page_i_logout_from_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login Test.Login Positive Test #1  Time elapsed: 0.064 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify if the app logo appears on the home page")
+public void login_page_i_verify_if_the_app_logo_appears_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Login Page: I logout from the application")
+public void login_page_i_logout_from_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login Test.Login Positive Test #2  Time elapsed: 0.036 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify if the app logo appears on the home page")
+public void login_page_i_verify_if_the_app_logo_appears_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Login Page: I logout from the application")
+public void login_page_i_logout_from_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login Test.Login Positive Test #3  Time elapsed: 0.027 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify if the app logo appears on the home page")
+public void login_page_i_verify_if_the_app_logo_appears_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Login Page: I logout from the application")
+public void login_page_i_logout_from_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login Test.Login Positive Test #4  Time elapsed: 0.032 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify if the app logo appears on the home page")
+public void login_page_i_verify_if_the_app_logo_appears_on_the_home_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Login Page: I logout from the application")
+public void login_page_i_logout_from_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Login Test.Login Negative Test  Time elapsed: 0.015 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "Generic: I see the page title with name: "Swag Labs"" is undefined. You can implement it using the snippet(s) below:
+
+@Given("Generic: I see the page title with name: {string}")
+public void generic_i_see_the_page_title_with_name(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@When("Login Page: I enter the username\\/password: {string} with: {string}")
+public void login_page_i_enter_the_username_password_with(String string, String string2) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I click on the Login button")
+public void login_page_i_click_on_the_login_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Login Page: I verify the error message with: {string}")
+public void login_page_i_verify_the_error_message_with(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
