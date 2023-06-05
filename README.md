@@ -1,4 +1,4 @@
-Below you will find what I use in this project and how I use it. I tried to do the explanations in order according to the file structure in Intellij.
+You will find what I use in this project and how I use it. I tried to do the explanations in order according to the file structure in Intellij.
 
 Base Page: I initialized the page so I don't keep typing the web driver. Tests can be run in chrome and firefox. With the pagemanager initialized method in the base page, we get rid of initializing the pages one by one. At the bottom, we do the closing process with the tear down method.
 
